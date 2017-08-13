@@ -13,13 +13,8 @@ var myName = "Ricky";
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
- /*
-	var canDrive = function() {
-    if (27 >= 16) {
-    	return true;
-    }
-};
-*/ // Error returns: expected 'fuction" to equal boolean?
+var canDrive;
+canDrive = (person.age >= 16);
 
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`
@@ -40,5 +35,6 @@ var dataTypes = [23, "Ricky", {name:"Ricky"}, true, undefined, null];
  * It should also have a name attribute with the value of 'Spot'
  */
 
-var dog = {name: "Spot"};
+var dog = {name: "Spot", bark: function(){
+		 	console.log('bark')}};
 
