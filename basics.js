@@ -1,14 +1,22 @@
 /* Create a `myName` variable and assign it a String value */
+var myName = "Ricky";
 
 /* Create a `person` variable and give it 2 properties,
  * `name`, assign it the same name as before,
  * as well as an `age` (number);
  */
+ var person = {
+    name: "Ricky",
+    age: 27  
+};
 
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
-
+var canDrive = {
+	if (age >= 16)
+		return true
+}
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`
  * and it should print "Hello, my name is {name}"
